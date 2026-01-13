@@ -479,7 +479,9 @@ html.dark-mode .footer-heading-small{
 	background: conic-gradient(
 		from 0deg,
         blue,
-        white
+        pink,
+        white,
+        red
 	);
 }
 
@@ -497,6 +499,8 @@ html.dark-mode .blob-spinning-gradient {
     background: conic-gradient(
         from 0deg,
         blue,
-        black
+        purple,
+        black,
+        red
     );
 }
