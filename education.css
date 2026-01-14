@@ -62,7 +62,7 @@
   padding: var(--spacing-medium);
   /* background-color: var(--bg-grey); */
   background-color: rgba(245, 245, 247, 0.4);
-  backdrop-filter: var(--backdrop-blur);
+  /* backdrop-filter: var(--backdrop-blur); */
   position: relative;
   border-radius: var(--primary-card-radius);
   transition: transform 0.3s ease;

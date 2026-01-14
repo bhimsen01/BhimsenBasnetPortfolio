@@ -2,9 +2,9 @@
 header{
     width: 100%;
     padding-top: 140px;
-    /* background-color: rgba(245, 245, 247, 0.4);
-    backdrop-filter: var(--backdrop-blur); */
-    backdrop-filter: blur(100px);
+    background-color: rgba(245, 245, 247, 0.4);
+    /* backdrop-filter: var(--backdrop-blur); */
+    /* backdrop-filter: blur(100px); */
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@ header{
     gap: var(--spacing-large);
     /* background-color: var(--bg-grey); */
     background-color: rgba(245, 245, 247, 0.4);
-    backdrop-filter: var(--backdrop-blur);
+    /* backdrop-filter: var(--backdrop-blur); */
     padding: var(--spacing-normal);
     border-radius: var(--primary-card-radius);
     transition: transform 0.3s ease;
@@ -91,7 +91,9 @@ header{
 }
 
 
-
+html.dark-mode header{
+    background-color: rgba(22, 22, 23, 0.4);
+}
 
 html.dark-mode .highlight-card{
     /* background-color: rgb(29, 29, 31); */

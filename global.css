@@ -39,8 +39,8 @@
     --box-shadow-inset: inset 0 4px 20px rgba(255, 255, 255, 0.3);
 
     /* backdop filter */
-    /* --backdrop-blur: blur(20px); */
-    --backdrop-blur: blur(8px) saturate(1.5);
+    --backdrop-blur: blur(8px);
+    /* --backdrop-blur: blur(8px) saturate(1.5); */
 
     /* box shadow */
     --box-shadow-light: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -234,7 +234,7 @@ nav{
     padding: var(--spacing-normal);
     width: 100%;
     border-radius:var(--semi-circle-radius);
-    backdrop-filter: var(--backdrop-blur);
+    /* backdrop-filter: var(--backdrop-blur); */
     border: 0.2px solid rgba(245, 245, 247, 0.4);
     box-shadow: var(--box-shadow-light);
     background-color: var(--primary-btn-bg);
@@ -350,6 +350,10 @@ nav{
   opacity: 0.8;
 }
 
+.contact{
+    text-decoration: none;
+}
+
 
 html.dark-mode .social img{
   filter: invert(1);
@@ -388,7 +392,7 @@ html.dark-mode nav{
 }
 
 html.dark-mode .nav-mob{
-    background-color: rgba(22, 22, 23, 0.8);
+    background-color: rgba(22, 22, 23, 0.4);
 }
 
 html.dark-mode .nav-btn{
@@ -448,7 +452,7 @@ html.dark-mode .footer-heading-small{
 
 
 .blob {
-	filter: blur(160px);
+	filter: blur(100px);
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -475,7 +479,7 @@ html.dark-mode .footer-heading-small{
 	width: 100vw;
 	height: 100vw;
 	transform: translate(-50%, -50%);
-	animation: spin 4s linear infinite;
+	animation: spin 8s linear infinite;
 	background: conic-gradient(
 		from 0deg,
         blue,

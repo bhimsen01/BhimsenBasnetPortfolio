@@ -15,7 +15,7 @@
     flex-direction: column;
     /* background-color: var(--bg-grey); */
     background-color: rgba(245, 245, 247, 0.4);
-    backdrop-filter: var(--backdrop-blur);
+    /* backdrop-filter: var(--backdrop-blur); */
     border-radius: var(--primary-card-radius);
     overflow: hidden;
     padding: var(--spacing-normal);
