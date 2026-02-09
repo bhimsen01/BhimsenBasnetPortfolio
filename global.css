@@ -482,10 +482,13 @@ html.dark-mode .footer-heading-small{
 	animation: spin 8s linear infinite;
 	background: conic-gradient(
 		from 0deg,
-        blue,
+        /* blue,
         pink,
         white,
-        red
+        red */
+        rgb(245,245,247),
+        rgb(162,201,201),
+        rgb(94,146,202)
 	);
 }
 
@@ -502,9 +505,12 @@ html.dark-mode .footer-heading-small{
 html.dark-mode .blob-spinning-gradient {
     background: conic-gradient(
         from 0deg,
-        blue,
+        /* blue,
         purple,
         black,
-        red
+        red */
+        rgb(0,0,2),
+        rgb(42,80,125),
+        rgb(30,69,134)
     );
 }
